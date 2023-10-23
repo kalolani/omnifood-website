@@ -1,0 +1,146 @@
+@media (max-width: 75em){
+ html{
+  font-size:60%;
+ }
+ .text-class{
+  padding:0;
+  font-size:0.8rem;
+ }
+ .step-1{
+  
+  gap:2rem;
+ }
+ 
+ .mobile-border,border-2{
+  width:26rem;
+ }
+ 
+}
+@media(max-width:81em){
+  .child-section h1{
+    font-size:4.5rem;
+  }
+  .hero-p{
+    font-size:2.1rem;
+  }
+}
+@media(max-width:93em){
+  .testimonial{
+    padding:0 2rem;
+    gap:1.2rem;
+   }
+   .testimonial-gallery{
+    gap:1.2rem;
+   }
+
+}
+@media(max-width:62.5em){
+  .testi-1 p{
+   font-size:1.5rem;
+
+  }
+   .gallery{
+    grid-template-columns:repeat(2,1fr);
+   
+    padding:0;
+    
+   
+  }
+  .section{
+    grid-template-columns:1fr;
+  }
+  .child-section,.hero-p{
+    text-align:center;
+  }
+  .link-btn{
+    align-items:center;
+    justify-content:center;
+  }
+  .testimonial-photo-container{
+    align-items:center;
+    justify-content:center;
+    margin-bottom:2rem;
+   
+
+  }
+  .delivery-info{
+    font-size:2rem;
+  }
+  .child-img-container img{
+    width:100%;
+  }
+  .testimonial-gallery{
+    grid-template-columns:1fr;
+    gap:5rem;
+  }
+  .gallery{
+    grid-template-columns:repeat(6,1fr);
+    grid-template-rows:1fr 1fr;
+  }
+  .form-container-1{
+   grid-template-columns:1fr;
+   
+  }
+  .form-container-1 input,.select-option,.form-btn{
+    display:block;
+    width:50rem;
+    height:6rem;
+   
+  }
+  .call-to-action-container{
+    grid-template-columns: 1fr;
+  }
+  .form-container-1 .form-name{
+    font-size:2.5rem;
+  }
+  .form-container-1 .input-name{
+    font-size:1.7rem;
+  }
+  .form-container p{
+    font-size:2.2rem;
+  }
+ 
+  .mobile-nav{
+    display:block;
+  }
+  .nav-box{
+    display:none;
+  }
+  .open-mobile-nav{
+    display:none;
+  }
+  .open-nav .open-mobile-nav{
+    display:block;
+  }
+  .open-nav .menu-mobile-nav{
+    display:none;
+  }
+  .nav-box{
+    background:rgba(255,255,255,0.96);
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    transition:all 4s;
+    transform:translateX(100%);
+    opacity:0;
+  }
+  .list-box{
+    flex-direction:column;
+    gap:4.8rem;
+   
+  }
+  .open-nav .nav-box{
+    opacity:1;
+    transform:translateX(0);
+  }
+  .list-box a li{
+    font-size:3.2rem;
+  }
+  
+ 
+}
